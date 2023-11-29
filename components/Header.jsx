@@ -14,28 +14,6 @@ import MenuMobile from './MenuMobile';
 const Header = () => {
   const [mobileMenu, setMobileMenu] = useState(false);
   const [showCatMenu, setShowCatMenu] = useState(false);
-  const [show, setShow] = useState('translate-y-0');
-  const [lastScrolly, setLastScrolly] = useState(0);
-
-  const controlNavbar = () => {
-    if (window.scrollY > 200) {
-      if (window.scrollY > lastScrolly && !mobileMenu) {
-        setShow('-translate-y-[80px]');
-      } else {
-        setShow('shadow-sm');
-      }
-    } else {
-      setShow('translate-y-0');
-    }
-    setLastScrolly(window.scrollY);
-  };
-
-  useEffect(() => {
-    window.addEventListener('scroll', controlNavbar);
-    return () => {
-      window.removeEventListener('scroll', controlNavbar);
-    };
-  }, [lastScrolly]);
 
   return (
     <header
