@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <div>
+    <div className="h-[2000px]">
       <h1 className="text-2xl text-red-500">Welcome broo</h1>
     </div>
   );
