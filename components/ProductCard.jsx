@@ -11,8 +11,8 @@ const ProductCard = () => {
       <Image
         alt="productImage"
         src="/product-1.webp"
-        width={300}
-        height={300}
+        width={400}
+        height={400}
         className="w-full"
       />
 
