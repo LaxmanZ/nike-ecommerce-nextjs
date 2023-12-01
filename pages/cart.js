@@ -17,7 +17,6 @@ const Cart = () => {
         <div className="flex flex-col gap-12 py-10 lg:flex-row">
           <div className="flex-[2]">
             <div className="text-lg font-bold">Cart Items</div>
-
             <CartItem />
             <CartItem />
             <CartItem />
@@ -25,7 +24,6 @@ const Cart = () => {
 
           <div className="flex-[1]">
             <div className="text-lg font-bold">Summery</div>
-
             <div className="p-5 my-5 bg-black/[0.05] rounded-xl">
               <div className="flex justify-between">
                 <div className="uppercase text-md md:text-lg font-medium text-black">
