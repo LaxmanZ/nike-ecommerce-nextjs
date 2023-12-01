@@ -2,6 +2,7 @@ import React from 'react';
 import Wrapper from '@/components/Wrapper';
 import ProductDetailsCarosoule from '@/components/ProductDetailsCarosoule';
 import { IoMdHeartEmpty } from 'react-icons/io';
+import RelatedProducts from '@/components/RelatedProducts';
 
 const ProductDetails = () => {
   return (
@@ -91,9 +92,7 @@ const ProductDetails = () => {
                 doloremque quo illo in, hic doloribus, similique inventore
                 praesentium a voluptas ad nemo dolor labore?Lorem ipsum dolor
                 sit amet, consectetur adipisicing elit. Expedita numquam eius
-                accusantium optio accusamus? Quidem doloremque quo illo in, hic
-                doloribus, similique inventore praesentium a voluptas ad nemo
-                dolor labore?
+                accusantium
               </div>
 
               <div className="text-md mb-5">
@@ -101,11 +100,11 @@ const ProductDetails = () => {
                 Expedita numquam eius accusantium optio accusamus? Quidem
                 doloremque quo illo in, hic doloribus, similique inventore
                 praesentium a voluptas ad nemo dolor labore?Lorem ipsum dolor
-                
               </div>
             </div>
           </div>
         </div>
+        <RelatedProducts />
       </Wrapper>
     </div>
   );
